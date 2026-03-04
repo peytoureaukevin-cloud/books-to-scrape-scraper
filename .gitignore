@@ -1,5 +1,22 @@
+# Environnements virtuels
 .venv/
-output/
+venv/
+env/
+
+# Fichiers Python compilés
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Données générées par le script
+output/
+
+# Fichiers système macOS
 .DS_Store
+
+# Dossiers de configuration éditeur
+.vscode/
+
+# Dossiers personnels / tests
+sandbox/
